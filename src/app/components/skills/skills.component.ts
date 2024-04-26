@@ -25,6 +25,7 @@ export class SkillsComponent {
     { name: 'MySQL', icon: 'devicon-mysql-plain' },
     { name: 'Swagger', icon: 'devicon-swagger-plain' },
     { name: 'Git', icon: 'devicon-git-plain' },
+    { name: 'Python', icon: 'devicon-python-plain' },
     { name: 'FastAPI', icon: 'devicon-fastapi-plain' },
   ];
 }
