@@ -1,0 +1,24 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  top: 0;
+  backdrop-filter: blur(10px); /* Frosted glass effect */
+  padding: 10px 0;
+  background: rgba(0, 0, 0, 0.56);
+  z-index: 1000;
+  backdrop-filter: blur(11.6px);
+  -webkit-backdrop-filter: blur(11.6px);
+}
+
+.navbar a {
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  padding: 10px;
+  transition: color 0.3s;
+  font-size: large;
+}
+
+.navbar a:hover {
+}

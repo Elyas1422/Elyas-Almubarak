@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.glass-container {
+  width: 75vw;
+  background: rgba(0, 0, 0, 0.56);
+  padding: 50px;
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(11.6px);
+  -webkit-backdrop-filter: blur(11.6px);
+}
+@media (max-width: 1024px) {
+  .glass-container {
+    width: 90vw;
+    padding: 20px;
+  }
+  .intro-heading {
+    font-size: 15vw;
+  }
+}
