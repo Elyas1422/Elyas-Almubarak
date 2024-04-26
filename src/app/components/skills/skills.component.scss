@@ -1,0 +1,26 @@
+.card {
+  background-color: var(--secondary-color);
+  border: 1px solid #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.prime-icon {
+  width: 5rem;
+  height: 5rem;
+  background-image: url("../../../assets/icons/prime.svg");
+  fill: red;
+  /* Optionally, you can use other background properties to adjust the appearance */
+  background-size: contain; /* Scale the image to fit the container */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+}
