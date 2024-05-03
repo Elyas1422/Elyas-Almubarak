@@ -26,6 +26,7 @@ export class SkillsComponent implements OnInit {
     { name: 'TypeScript', icon: 'devicon-typescript-plain' },
     { name: 'Angular', icon: 'devicon-angular-plain' },
     { name: 'Tailwind CSS', icon: 'devicon-tailwindcss-original' },
+    { name: 'Bootstrap', icon: 'devicon-bootstrap-plain' },
     { name: 'Figma', icon: 'devicon-figma-plain' },
     { name: 'PrimeNg', icon: 'prime-icon' },
   ];
@@ -45,10 +46,10 @@ export class SkillsComponent implements OnInit {
   ) {}
 
   ngOnInit(): void {
-    gsap.set('#cardsContainer', { opacity: 0, y: 100 });
+    gsap.set('#skillsContainer', { opacity: 0, y: 100 });
 
-    gsap.to('#cardsContainer', {
-      scrollTrigger: '#cardsContainer',
+    gsap.to('#skillsContainer', {
+      scrollTrigger: '#skillsContainer',
       opacity: 1,
       y: 0,
       duration: 1,

@@ -2,6 +2,7 @@
 @import url("https://cdn-uicons.flaticon.com/2.3.0/uicons-regular-rounded/css/uicons-regular-rounded.css");
 @import url("https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css");
 @import url("https://cdn-uicons.flaticon.com/2.3.0/uicons-brands/css/uicons-brands.css");
+@import url("https://cdn-uicons.flaticon.com/2.3.0/uicons-solid-straight/css/uicons-solid-straight.css");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -42,7 +43,7 @@
   font-display: swap;
   font-style: normal;
   font-named-instance: "Regular";
-  src: url("/src/assets/fonts/Inter-roman.var.woff2?v=3.19") format("woff2");
+  src: url("../src/assets/fonts/Inter-roman.var.woff2?v=3.19") format("woff2");
 }
 @font-face {
   font-family: "Inter var";
@@ -50,8 +51,7 @@
   font-display: swap;
   font-style: italic;
   font-named-instance: "Italic";
-  // src: url("/ /fonts/Inter-italic.var.woff2?v=3.19") format("woff2");
-  src: url("/src/assets/fonts/Inter-italic.var.woff2?v=3.19") format("woff2");
+  src: url("../src/assets/fonts/Inter-italic.var.woff2?v=3.19") format("woff2");
 }
 body {
   background-color: var(--surface-color);

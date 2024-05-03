@@ -19,8 +19,6 @@
   width: 5rem;
   height: 5rem;
   background-image: url("../../../assets/icons/prime.svg");
-  fill: red;
-  /* Optionally, you can use other background properties to adjust the appearance */
-  background-size: contain; /* Scale the image to fit the container */
-  background-repeat: no-repeat; /* Prevent the image from repeating */
+  background-size: contain;
+  background-repeat: no-repeat;
 }
