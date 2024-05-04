@@ -1,0 +1,32 @@
+{
+  "settings": {
+    "dir": "ltr",
+    "titlesFont": "en-fonts",
+    "title":"Elyas Almubarak",
+    "underConstruction": "Under Construction"
+  },
+  "navbar":{
+    "name": "Elyas"
+  },
+  "intro": {
+    "title": "Hi, I'm Elyas",
+    "description":"Passionate Web Developer & AI Enthusiast, Fresh Graduate from KFUPM. Crafting dynamic UIs and AI-driven solutions. Explore my portfolio for more.",
+    "contactInfo":"Contact Me"
+  },
+  "skills":{
+    "title": "Skills",
+    "frontendSubtitle": "Frontend Development Skills",
+    "backendSubtitle": "Backend Development Skills"
+  },
+  "experience":{
+    "title": "Experience",
+    "learnedTechSubtitle": "Learned Technologies",
+    "job1":{
+      "title":"Software Engineering Intern",
+      "loaction":"Houston, TX, USA",
+      "tasks":["Creating and working with Front-end project using Angular",
+              "Dealing with high stream rate data using RxJS and SignalR",
+              "Using Angular Material and AG Grid to create interactive UIs"]
+    }
+  }
+}

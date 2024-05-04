@@ -1,7 +1,27 @@
-<nav class="navbar">
-  <img src="../../../assets/" alt="" />
-  <a class="font" href="#home">Intro</a>
-  <a href="#about">Skills</a>
-  <a href="#portfolio">Projects</a>
-  <a href="#contact">Contact</a>
+<nav
+  [ngClass]="{
+    'navbar-blur': navbarScrolled,
+  }"
+  class="navbar flex justify-between py-3 px-6 items-center"
+>
+  <div class="cursor-pointer flex flex-row">
+    <div
+      class="flex items-center align-content-center gap-1"
+      [routerLink]="['/']"
+    >
+      <img src="../../../assets/images/Navbar_logo.png" class="logo" alt="" />
+      <div class="flex-row text-2xl lg:text-3xl">
+        <div class="navbar-name font-rakkas">
+          {{ "navbar.name" | translate }}
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="cursor-pointer" (click)="toggleLang()">
+    <img
+      src="../../../assets/icons/arabic.png"
+      class="icon"
+      alt="change language"
+    />
+  </div>
 </nav>

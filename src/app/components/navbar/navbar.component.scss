@@ -1,24 +1,30 @@
 .navbar {
-  display: flex;
-  justify-content: center;
-  width: 100%;
+  position: fixed;
   top: 0;
-  backdrop-filter: blur(10px); /* Frosted glass effect */
-  padding: 10px 0;
-  background: rgba(0, 0, 0, 0.56);
-  z-index: 1000;
-  backdrop-filter: blur(11.6px);
-  -webkit-backdrop-filter: blur(11.6px);
+  left: 0;
+  width: calc(100% - var(--scrollbar-width, 0px));
+  z-index: 1100;
+  border-bottom: 1px solid transparent;
+  transition: background-color 0.5s, border-color 0.5s ease;
+}
+.navbar-blur {
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  background-color: var(--navbar-bg);
+  border-bottom: 1px solid var(--surface-border);
 }
 
-.navbar a {
-  text-decoration: none;
-  margin: 0 15px;
-  font-weight: bold;
-  padding: 10px;
-  transition: color 0.3s;
-  font-size: large;
+.navbar-name {
+  color: var(--primary-color);
+  font-weight: bolder;
 }
-
-.navbar a:hover {
+.logo {
+  width: 2.5rem;
+  height: 2.5rem;
+  object-fit: contain;
+}
+.icon {
+  width: 2rem;
+  height: 2rem;
+  object-fit: contain;
 }

@@ -1,10 +1,12 @@
+import { CommonModule } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
+import { TranslateModule } from '@ngx-translate/core';
 import { gsap } from 'gsap';
 
 @Component({
   selector: 'app-experience',
   standalone: true,
-  imports: [],
+  imports: [TranslateModule, CommonModule],
   templateUrl: './experience.component.html',
   styleUrl: './experience.component.scss',
 })

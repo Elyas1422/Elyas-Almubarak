@@ -1,18 +1,16 @@
 import { Component } from '@angular/core';
 import { Blob } from '../../models/blob.model';
+import { TranslateModule } from '@ngx-translate/core';
 @Component({
   selector: 'app-intro',
   standalone: true,
-  imports: [],
+  imports: [TranslateModule],
   templateUrl: './intro.component.html',
   styleUrl: './intro.component.scss',
 })
 export class IntroComponent {
   ngOnInit(): void {
     this.animateBlobs();
-  }
-  openBotPopUp(): void {
-    window.location.href = 'https://bard.google.com/';
   }
   private posX: number = 0;
   private posY: number = 0;

@@ -9,12 +9,13 @@ import {
 import { gsap } from 'gsap';
 import ScrollTrigger from 'gsap/ScrollTrigger';
 import { DOCUMENT } from '@angular/common';
+import { TranslateModule } from '@ngx-translate/core';
 
 gsap.registerPlugin(ScrollTrigger);
 @Component({
   selector: 'app-skills',
   standalone: true,
-  imports: [],
+  imports: [TranslateModule],
   templateUrl: './skills.component.html',
   styleUrl: './skills.component.scss',
 })

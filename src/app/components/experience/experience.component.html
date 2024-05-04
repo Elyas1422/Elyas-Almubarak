@@ -3,7 +3,9 @@
   id="experienceContainer"
   class="flex flex-col items-center justify-center align-content-center text-center gap-8"
 >
-  <h1 class="font-bold text-center text-3xl lg:text-4xl">My Experience</h1>
+  <h1 class="font-bold text-center text-3xl lg:text-4xl">
+    {{ "experience.title" | translate }}
+  </h1>
   <div class="w-5/6 lg:w-3/4 rounded-lg card p-5">
     <div class="flex flex-col-reverse items-center lg:flex-row">
       <div class="flex flex-col pt-5 items-center w-5/6 lg:w-4/6">
@@ -13,23 +15,24 @@
           alt=""
         />
         <h1 class="text-lg max-h-dvh:text-xl font-semibold">
-          Software Engineering Intern
+          {{ "experience.job1.title" | translate }}
         </h1>
         <h2 class="text-base md:text-lg font-medium">
-          Houston, TX, USA <i class="fi fi-ss-flag-usa"></i>
+          {{ "experience.job1.loaction" | translate }}
+          <i class="fi fi-ss-flag-usa"></i>
         </h2>
         <p class="text-sm">06/2023 - 08/2023</p>
 
         <ul
           class="text-sm md:text-lg text-center flex flex-col gap-3 font-medium list-disc lg:p-6 py-6"
         >
-          <li>Creating and working with Front-end project using Angular</li>
-          <li>Dealing with high stream rate data using RxJS and SignalR</li>
-          <li>Using Angular Material and AG Grid to create interactive grid</li>
+          @for (task of 'experience.job1.tasks' | translate; track task.name){
+          <li>{{ task }}</li>
+          }
         </ul>
         <div class="flex flex-col items-center">
           <h1 class="text-xl font-semibold mb-5 md:mb-3">
-            Learned Technologies
+            {{ "experience.learnedTechSubtitle" | translate }}
           </h1>
 
           <div class="flex flex-wrap gap-11 md:gap-7 justify-center">
