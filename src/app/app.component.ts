@@ -10,6 +10,7 @@ import { Title } from '@angular/platform-browser';
 import { EducationComponent } from './components/education/education.component';
 import { ProjectsComponent } from './components/projects/projects.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { CookieService } from 'ngx-cookie-service';
 
 @Component({
   selector: 'app-root',
@@ -33,10 +34,20 @@ export class AppComponent {
   title = 'Elyas Almubarak';
   constructor(
     private translateService: TranslateService,
-    private titleService: Title
+    private titleService: Title,
+    private cookieService: CookieService
   ) {
-    this.translateService.setDefaultLang('en');
+    const browserLang =
+      this.cookieService.get('lang') || this.translateService.getBrowserLang();
+    this.translateService.setDefaultLang(browserLang || 'en');
+    this.translateService
+      .get('settings.title')
+      .subscribe((translatedTitle: string) => {
+        this.titleService.setTitle(translatedTitle);
+      });
     this.translateService.onLangChange.subscribe(() => {
+      const lang = this.translateService.currentLang;
+      this.cookieService.set('lang', lang, { expires: new Date('9999-12-31') });
       this.translateService
         .get('settings.title')
         .subscribe((translatedTitle: string) => {
