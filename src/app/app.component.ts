@@ -8,6 +8,8 @@ import { ExperienceComponent } from './components/experience/experience.componen
 import { TranslateModule, TranslateService } from '@ngx-translate/core';
 import { Title } from '@angular/platform-browser';
 import { EducationComponent } from './components/education/education.component';
+import { ProjectsComponent } from './components/projects/projects.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @Component({
   selector: 'app-root',
@@ -23,6 +25,8 @@ import { EducationComponent } from './components/education/education.component';
     ExperienceComponent,
     TranslateModule,
     EducationComponent,
+    ProjectsComponent,
+    FooterComponent,
   ],
 })
 export class AppComponent {

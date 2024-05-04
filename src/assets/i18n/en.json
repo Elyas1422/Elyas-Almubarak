@@ -24,6 +24,7 @@
     "job1":{
       "title":"Software Engineering Intern",
       "loaction":"Houston, TX, USA",
+      "date":"06/2023 - 08/2023",
       "tasks":["Creating and working with Front-end project using Angular",
               "Dealing with high stream rate data using RxJS and SignalR",
               "Using Angular Material and AG Grid to create interactive UIs"]
@@ -37,6 +38,35 @@
     "graduationDate": "June 2024",
     "graduationHonors": "Second Honors Graduate",
     "CXProgram": ["Completed the ","CX Program"," in Artificial Intelligence & Machine Learning"],
+    "date":"01/2020 - 06/2024",
     "image": "KFUPM_LOGO_en.png"
+  },
+  "projects":{
+    "title": "Projects",
+    "forMore": "For more projects, visit my GitHub profile",
+    "visit": "Visit",
+    "projectsList": [
+      {
+        "title": "WikiProduct",
+        "description": "An AI-powered digital warehouse system and web archive showcasing diverse internet products with personalized shopping recommendations.",
+        "image": "WikiProduct.png",
+        "link": "https://wikiproduct.up.railway.app/"
+      },
+      {
+        "title": "Scheduleit",
+        "description": "A tool to help people to schedule a suitable date. by seeing the dates that guests are busy in or the dates they are free in.",
+        "image": "Scheduleit.png",
+        "link": "https://scheduleit.up.railway.app/en"
+      },
+      {
+        "title": "Multiclass Classifiers Benchmarking",
+        "description": "Building SVM, NN, DT, and XGB models on a dataset and select the best model with 93% accuracy. Also, Implement active learning to achieve similar accuracy with less data.",
+        "image": "ML_benchmark.png",
+        "link": "https://github.com/Elyas1422/multiclass_classifiers_benchmarking"
+      }
+    ]
+  },
+  "footer":{
+    "title":"Created By Elyas Almubarak @2024"
   }
 }
