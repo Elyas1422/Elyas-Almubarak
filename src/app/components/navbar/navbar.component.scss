@@ -27,4 +27,8 @@
   width: 2rem;
   height: 2rem;
   object-fit: contain;
+  background: var(--secondary-color);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border: 1px solid var(--surface-border);
 }

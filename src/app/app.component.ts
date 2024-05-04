@@ -7,6 +7,7 @@ import { SkillsComponent } from './components/skills/skills.component';
 import { ExperienceComponent } from './components/experience/experience.component';
 import { TranslateModule, TranslateService } from '@ngx-translate/core';
 import { Title } from '@angular/platform-browser';
+import { EducationComponent } from './components/education/education.component';
 
 @Component({
   selector: 'app-root',
@@ -21,6 +22,7 @@ import { Title } from '@angular/platform-browser';
     SkillsComponent,
     ExperienceComponent,
     TranslateModule,
+    EducationComponent,
   ],
 })
 export class AppComponent {

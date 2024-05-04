@@ -28,5 +28,15 @@
               "Dealing with high stream rate data using RxJS and SignalR",
               "Using Angular Material and AG Grid to create interactive UIs"]
     }
+  },
+  "education":{
+    "title": "Education",
+    "cardTitle": "Fresh Graduate from #1 Arab University",
+    "degree": "Bachelor of Science in Software Engineering",
+    "university": "King Fahd University of Petroleum & Minerals",
+    "graduationDate": "June 2024",
+    "graduationHonors": "Second Honors Graduate",
+    "CXProgram": ["Completed the ","CX Program"," in Artificial Intelligence & Machine Learning"],
+    "image": "KFUPM_LOGO_en.png"
   }
 }

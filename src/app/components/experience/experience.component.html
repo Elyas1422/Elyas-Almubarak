@@ -8,7 +8,7 @@
   </h1>
   <div class="w-5/6 lg:w-3/4 rounded-lg card p-5">
     <div class="flex flex-col-reverse items-center lg:flex-row">
-      <div class="flex flex-col pt-5 items-center w-5/6 lg:w-4/6">
+      <div class="flex flex-col pt-5 items-center w-full lg:w-4/6">
         <img
           src="../../../assets/icons/Halliburton_logo.svg"
           class="w-5/6 md:w-1/2 mb-3"
@@ -24,10 +24,10 @@
         <p class="text-sm">06/2023 - 08/2023</p>
 
         <ul
-          class="text-sm md:text-lg text-center flex flex-col gap-3 font-medium list-disc lg:p-6 py-6"
+          class="text-sm md:text-lg text-center flex flex-col gap-3 font-normal lg:p-6 py-6"
         >
           @for (task of 'experience.job1.tasks' | translate; track task.name){
-          <li>{{ task }}</li>
+          <li>- {{ task }}</li>
           }
         </ul>
         <div class="flex flex-col items-center">
