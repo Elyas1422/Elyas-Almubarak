@@ -2,49 +2,56 @@
   "settings": {
     "dir": "ltr",
     "titlesFont": "en-fonts",
-    "title":"Elyas Almubarak",
+    "title": "Elyas Almubarak",
     "underConstruction": "Under Construction"
   },
-  "navbar":{
+  "navbar": {
     "name": "Elyas"
   },
   "intro": {
     "title": "Hi, I'm Elyas",
-    "description":"Passionate Web Developer & Fresh Graduate from KFUPM. Crafting dynamic UIs. Explore my portfolio for more.",
-    "contactInfo":"Contact Me"
+    "description": "Passionate Web Developer & Fresh Graduate from KFUPM. Crafting dynamic UIs. Explore my portfolio for more.",
+    "contactInfo": "Contact Me"
   },
-  "skills":{
+  "skills": {
     "title": "Skills",
     "frontendSubtitle": "Frontend Development Skills",
     "backendSubtitle": "Backend Development Skills"
   },
-  "experience":{
+  "experience": {
     "title": "Experience",
     "learnedTechSubtitle": "Learned Technologies",
-    "job1":{
-      "title":"Software Engineering Intern",
-      "loaction":"Houston, TX, USA",
-      "date":"06/2023 - 08/2023",
-      "tasks":["Creating and working with Front-end project using Angular",
-              "Dealing with high stream rate data using RxJS and SignalR",
-              "Using Angular Material and AG Grid to create interactive UIs"]
+    "job1": {
+      "title": "Software Engineering Intern",
+      "loaction": "Houston, TX, USA",
+      "date": "06/2023 - 08/2023",
+      "tasks": [
+        "Creating and working with Front-end project using Angular",
+        "Dealing with high stream rate data using RxJS and SignalR",
+        "Using Angular Material and AG Grid to create interactive UIs"
+      ]
     }
   },
-  "education":{
+  "education": {
     "title": "Education",
     "cardTitle": "Fresh Graduate from #1 Arab University",
     "degree": "Bachelor of Science in Software Engineering",
     "university": "King Fahd University of Petroleum & Minerals",
     "graduationDate": "June 2024",
     "graduationHonors": "Second Honors Graduate",
-    "CXProgram": ["Completed the ","CX Program"," in Artificial Intelligence & Machine Learning"],
-    "date":"01/2020 - 06/2024",
+    "CXProgram": [
+      "Completed the ",
+      "CX Program",
+      " in Artificial Intelligence & Machine Learning"
+    ],
+    "date": "01/2020 - 06/2024",
     "image": "KFUPM_LOGO_en.png"
   },
-  "projects":{
+  "projects": {
     "title": "Projects",
     "forMore": "For more projects, visit my GitHub profile",
     "visit": "Visit",
+    "coomingSoon": "Coming Soon",
     "projectsList": [
       {
         "title": "WikiProduct",
@@ -59,14 +66,13 @@
         "link": "https://scheduleit.up.railway.app/en"
       },
       {
-        "title": "Multiclass Classifiers Benchmarking",
-        "description": "Building SVM, NN, DT, and XGB models on a dataset and select the best model with 93% accuracy. Also, Implement active learning to achieve similar accuracy with less data.",
-        "image": "ML_benchmark.png",
-        "link": "https://github.com/Elyas1422/multiclass_classifiers_benchmarking"
+        "title": "Baleegh",
+        "description": "Baleegh is a platform that offers translation into eloquent Arabic, focusing on brevity and clarity, unlike other platforms that rely on lengthy and awkward translations. The project will be launched on October 26, 2024, as part of the Allam Challenge.",
+        "image": "Baleegh.png"
       }
     ]
   },
-  "footer":{
-    "title":"Created By Elyas Almubarak @2024"
+  "footer": {
+    "title": "Created By Elyas Almubarak @2024"
   }
 }
