@@ -23,12 +23,20 @@
       </div>
       <div class="card-footer mt-3">
         <h5>
+          @if (project.link){
           <a
             [href]="project.link"
             target="_blank"
             class="text-primary hover:underline font-semibold text-lg"
             >{{ "projects.visit" | translate }} <i class="fi fi-br-link-alt"></i
           ></a>
+          } @else{
+          <p class="text-primary font-semibold text-lg">
+            {{ "projects.coomingSoon" | translate }}
+            <i class="fi fi-rr-time-oclock"></i>
+          </p>
+
+          }
         </h5>
       </div>
     </div>
