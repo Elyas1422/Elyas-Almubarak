@@ -60,15 +60,16 @@
         "link": "https://wikiproduct.up.railway.app/"
       },
       {
+        "title": "Baleegh",
+        "description": "Baleegh is a platform that offers translation into eloquent Arabic, focusing on brevity and clarity, unlike other platforms that rely on lengthy and awkward translations.",
+        "image": "Baleegh.png",
+        "link": "https://baleegh-production.up.railway.app/"
+      },
+      {
         "title": "Scheduleit",
         "description": "A tool to help people to schedule a suitable date. by seeing the dates that guests are busy in or the dates they are free in.",
         "image": "Scheduleit.png",
         "link": "https://scheduleit.up.railway.app/en"
-      },
-      {
-        "title": "Baleegh",
-        "description": "Baleegh is a platform that offers translation into eloquent Arabic, focusing on brevity and clarity, unlike other platforms that rely on lengthy and awkward translations. The project will be launched on October 26, 2024, as part of the Allam Challenge.",
-        "image": "Baleegh.png"
       }
     ]
   },
