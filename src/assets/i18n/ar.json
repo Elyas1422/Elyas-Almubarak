@@ -57,7 +57,7 @@
         "title": "WikiProduct",
         "description": "نظام مستودع شامل رقمي مدعوم بالذكاء الاصطناعي وأرشيف ويب يُعرض فيه منتجات إنترنت متنوعة مع توصيات تسوق شخصية.",
         "image": "WikiProduct.png",
-        "link": "https://wikiproduct.up.railway.app/"
+        "link": "https://github.com/WikiProductOfficial/WikiProductOfficial"
       },
       {
         "title": "بليغ",
@@ -70,6 +70,24 @@
         "description": "أداة تساعدك على جدولة موعد مناسب، حيث يمكنك مشاهدة التواريخ التي يكون الزوار مشغولين فيها أو التواريخ التي يكونون فيها متفرغين. وذلك لتسهيل عملية التنسيق بين الأطراف المعنية.",
         "image": "Scheduleit.png",
         "link": "https://scheduleit.up.railway.app/ar"
+      },
+      {
+        "title": "تقييم مقاييس لنماذج التعلم الآلي",
+        "description": "بناء نماذج SVM، NN، DT، و XGB على مجموعة بيانات واختيار أفضل نموذج بدقة تصل إلى 93%. كما يتضمن تطبيق التعلم النشط لتحقيق دقة مماثلة باستخدام كمية أقل من البيانات.",
+        "image": "ML_benchmark.png",
+        "link": "https://github.com/Elyas1422/multiclass_classifiers_benchmarking"
+      },
+      {
+        "title": "لمحة",
+        "description": "أداة تسد الفجوة بين البحث المكتبي والواقع، لتمكين قرارات استثمارية مدعومة بالبيانات الجغرافية والديموغرافية وحركة المرور.",
+        "image": "Lamha.png",
+        "link": "https://lamha.up.railway.app/home"
+      },
+      {
+        "title": "صفحتي الشخصية",
+        "description": "تطبيق ويب شخصي يعرض معلومات شخصية ومهاراتي ومشاريعي وطرق التواصل معي.",
+        "image": "Personal_Website.png",
+        "link": "https://www.elyas.app/"
       }
     ]
   },

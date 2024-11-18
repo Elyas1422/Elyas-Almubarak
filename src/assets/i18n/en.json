@@ -57,7 +57,7 @@
         "title": "WikiProduct",
         "description": "An AI-powered digital warehouse system and web archive showcasing diverse internet products with personalized shopping recommendations.",
         "image": "WikiProduct.png",
-        "link": "https://wikiproduct.up.railway.app/"
+        "link": "https://github.com/WikiProductOfficial/WikiProductOfficial"
       },
       {
         "title": "Baleegh",
@@ -70,6 +70,24 @@
         "description": "A tool to help people to schedule a suitable date. by seeing the dates that guests are busy in or the dates they are free in.",
         "image": "Scheduleit.png",
         "link": "https://scheduleit.up.railway.app/en"
+      },
+      {
+        "title": "Multiclass Classifiers Benchmarking",
+        "description": "Building SVM, NN, DT, and XGB models on a dataset and select the best model with 93% accuracy. Also, Implement active learning to achieve similar accuracy with less data.",
+        "image": "ML_benchmark.png",
+        "link": "https://github.com/Elyas1422/multiclass_classifiers_benchmarking"
+      },
+      {
+        "title": "Lamha",
+        "description": "A tool that bridges desk research and real-world insights, enabling data-driven investment decisions using geographic, demographic, and traffic data.",
+        "image": "Lamha.png",
+        "link": "https://lamha.up.railway.app/home"
+      },
+      {
+        "title": "Personal Portfolio",
+        "description": "A personal web application that showcases my personal information, skills, projects, and ways to contact me.",
+        "image": "Personal_Website.png",
+        "link": "https://www.elyas.app/"
       }
     ]
   },
